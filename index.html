@@ -23,7 +23,7 @@
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #F4F4F4;border-bottom: 1px solid #a7a7a7">
     <div class="container">
-      <img src="img/LOGO.png" style="max-width:185px; height:100px "/>
+      <a href="index.html"><img src="img/LOGO.png" style="max-width:235px; height:128px "/></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -56,21 +56,27 @@
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
         <div class="carousel-item active" style="background-image: url('img/buildings-clear-sky-exterior-374023.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>DISEÑO ESTRUCTURAL</h3>
-          </div>
+          <a href="services.html#diseno-estructural">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>DISEÑO ESTRUCTURAL</h3>
+            </div>
+          </a>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('img/construction-helmet-industry-1216589.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>CONSTRUCCIÓN Y SUPERVISIÓN</h3>
-          </div>
+          <a href="services.html#construccion-sup">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>CONSTRUCCIÓN Y SUPERVISIÓN</h3>
+            </div>
+          </a>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('img/architect-architecture-build-1109541.jpg')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3 style="color:black">PROYECTO ARQUITECTONICO</h3>
-          </div>
+          <a href="services.html#proyecto-arqui">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 style="color:black">PROYECTO ARQUITECTONICO</h3>
+            </div>
+          </a>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -109,10 +115,29 @@
 
   <!-- Footer -->
   <footer class="py-5 " style="background-color: #189dd8" >
-    <div class="container">
-      <p class="m-0 text-right text-white">Correo:</p>
-      <p class="m-0 text-right text-white">Telefono:</p>
-      <p class="m-0 text-right text-white">Ubicación:</p>
+    <div class="container ">
+      <div class="row justify-content-end" >
+        <div class="col-lg-2 mb-0 " >
+          <p style="color: #ebebeb; margin-bottom: 25px; font-weight: bold">NUESTRA EMPRESA</p>
+          <a class="m-0 text-left text-white" href="about.html">
+            Nosotros<br>
+          </a>
+          <a class="m-0 text-left text-white" href="services.html">
+            Servicios
+          </a>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div style="margin-top: -14px">
+            <a href="contact.html" class="m-0 text-left text-white"><ion-icon name="mail" style="margin-right: 14px"></ion-icon>contacto@dacaingenieria.com.mx</a>
+          </div>
+          <div class="m-0 text-left text-white"> 
+            <ion-icon name="call" ></ion-icon> 33 1708 6674 <b>|</b> 33 2733 1259
+          </div>
+          <div class="m-0 text-left text-white"> 
+            <ion-icon name="pin" ></ion-icon> Av. Cristóbal Colón 3579, López Portillo, 44960 Guadalajara, Jal.
+          </div>
+        </div>
+      </div>
     </div>
     <!-- /.container -->
   </footer>
@@ -120,6 +145,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 
 </body>
 
