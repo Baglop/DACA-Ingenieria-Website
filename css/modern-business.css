@@ -4,12 +4,20 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 body {
-  padding-top: 110px;
+  padding-top: 140px;
 }
 
 .refMargin{
-  padding-top: 125px;
-  margin-top: -125px;
+  padding-top: 145px;
+  margin-top: -145px;
+}
+.vertical{ 
+  
+  border:         none;
+  border-left:    1px solid hsla(200, 10%, 50%,100);
+  height:         15vh;
+  width:          1px;       
+  border-color: white;
 }
 
 ion-icon {
